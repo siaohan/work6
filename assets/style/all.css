@@ -11712,7 +11712,7 @@ a {
 .footer_background {
   width: 100%;
   height: 400px;
-  background-image: url(/assets/images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+  background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11803,7 +11803,7 @@ a {
 .background {
   width: 100%;
   height: 480px;
-  background-image: url(/assets/images/0808.jpg);
+  background-image: url(../images/0808.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11951,7 +11951,7 @@ a {
 
 .live_streaming_background {
   height: 482px;
-  background-image: url(/assets/images/people2.png);
+  background-image: url(../images/people2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
