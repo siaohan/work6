@@ -1,0 +1,30 @@
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 85px;
+    border: 1px solid #707070;
+    .meaningless{
+        width: 230px;
+    }
+    h1{
+        color: $indigo;
+        font-size: 24px;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        color: #707070;
+    }
+    img{
+        width: 24px;
+        vertical-align: middle;
+    }
+    
+}
+

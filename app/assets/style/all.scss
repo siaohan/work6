@@ -1,6 +1,14 @@
 @import "../../../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
+@import "helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 
-@import './layout/index.scss'
+@import "reset";
+@import "base";
+@import "util";
+@import "layout/_header";
+@import "layout/_footer";
+
+//*頁面設計
+@import "pages/index";
+@import "pages/design";

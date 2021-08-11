@@ -1,0 +1,177 @@
+.background{
+    width: 100%;
+    height: 480px;
+    background-image: url(/assets/images/0808.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+    .content{
+        width: 400px;
+        position: absolute;
+        top: 167px;
+        left: 180px;
+        color: $white ;
+        font-weight: bold;
+        h2{
+            font-size: 32px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .content_button{
+            display: flex;
+            input{
+                width: 160px;
+                font-size: 16px;
+                color: $white;
+                padding: 10px 0px;
+                border-radius: 5px;
+            }
+            .content_button_input_buy{
+                background-color: $pink;
+                border: 1px solid $pink;
+            }
+            .content_button_input_detailed{
+                background-color:transparent;
+                border-style:none;
+                border: 1px solid $white;
+            }
+        }
+    }
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #707070;
+    li{
+        margin: 14px 9px;
+        width: 85px;
+        text-align: center;
+        a{
+            color: #707070;
+            font-size: 16px;
+            display: block;
+        }
+    }
+}
+
+.Popular_Exhibition_wrap{
+    display: flex;
+    background-color: #EFEFEF;
+    .col-lg-4{
+        .Popular_Exhibition_photo{
+            img{
+                display: block;
+                height: 350px;
+                object-fit: cover;
+            }
+        }
+    }
+    .Popular_Exhibition_content{
+        width: 540px;
+        font-size: 20px;
+        h4{
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 4px;
+        }
+        p{
+            padding-bottom: 70px;
+        }
+        input{
+            width: 96px;
+            height: 44px;
+            font-size: 16px;
+            padding: 10px 16px;
+            border-radius: 5px;
+        }
+        .Popular_Exhibition_input1{
+            background-color: $indigo;
+            color: $white;
+            border: 1px solid  $indigo;
+        }
+        .Popular_Exhibition_input2{
+            background-color: $white;
+            color: $indigo;
+            border: 1px solid  $indigo;
+        }
+    }
+    .Popular_Exhibition_date{
+        padding-top: 40px;
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 90px;
+        }
+        img{
+            width: 20px;
+        }
+    }
+}
+.container{
+    .row{
+        .Popular_Exhibition{
+            background-color: $white;
+            padding: 0px;
+        }
+    }
+    h2{
+        font-size: 32px;
+        font-weight: bold;
+        padding-top: 60px;
+        padding-bottom: 24px; 
+    }
+}
+.live_streaming_background{
+    height: 482px;
+    background-image: url(/assets/images/people2.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+}
+
+.live_streaming_left{
+    padding: 40px 24px;
+    background-color: #190014CC;
+    color: $white;
+    height: 482px;
+    span{
+        border-left:1px solid $white ;
+        margin-left: 12px;
+        padding:5px 12px;
+    }
+    h3{
+        font-size: 28px;
+        font-weight: bold;
+        padding-bottom: 32px;
+    }
+    img{
+        width: 128px;
+        padding-bottom: 12px;
+    }
+    p{
+        font-size: 20px;
+    }
+    input{
+        width: 140px;
+        height: 44px;
+        font-size: 16px;
+        border: 1px solid $pink;
+        background-color: $pink;
+        color: $white;
+    }
+}
+.guess{
+    padding: 0px;
+    margin-bottom: 60px;
+    img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+
