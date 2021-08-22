@@ -1,5 +1,4 @@
 .background{
-    width: 100%;
     height: 480px;
     background-image: url(../images/0808.jpg);
     background-repeat: no-repeat;
@@ -7,7 +6,6 @@
     background-size: cover;
     position: relative;
     .content{
-        width: 400px;
         position: absolute;
         top: 167px;
         left: 180px;
@@ -40,7 +38,14 @@
         }
     }
 }
-
+@media(max-width: 376px){
+    .background{
+        .content{
+            top: 254px;
+            left: 15px;
+        }
+    }
+}
 .menu{
     display: flex;
     justify-content: center;
@@ -53,6 +58,14 @@
             color: #707070;
             font-size: 16px;
             display: block;
+        }
+    }
+}
+@media(max-width: 376px){
+    .menu{
+        flex-wrap: wrap;
+        li{
+            margin: 3px 9px;
         }
     }
 }
@@ -72,6 +85,10 @@
     .Popular_Exhibition_content{
         width: 540px;
         font-size: 20px;
+        .Popular_Exhibition_content_title, .rwd_show{
+            display: flex;
+            align-items: center;
+        }
         h4{
             font-weight: bold;
             margin-top: 40px;
@@ -110,6 +127,56 @@
         }
     }
 }
+@media(min-width: 376px){
+    .Popular_Exhibition_content{
+        .Popular_Exhibition_content_title{
+            .rwd_show{
+                display: none;
+            }  
+        } 
+    }
+}
+
+@media(max-width: 376px){
+    .Popular_Exhibition_wrap{
+        
+        .Popular_Exhibition_content{
+            width: 345px;
+            padding: 0px;
+            margin: 0px;
+            .Popular_Exhibition_content_title{
+                h4{
+                    margin: 8px 10px 4px 0px;
+                }
+                .rwd_show{
+                    img{
+                        padding-right: 30px;
+                    }
+                }
+            }
+            p{
+                font-size: 16px;
+                padding-bottom: 20px;
+            }
+            input{
+                margin-bottom: 24px;
+            }
+        }
+        .Popular_Exhibition_date{
+            display: none;
+        }
+        .col-lg-4{
+            .Popular_Exhibition_photo{
+                img{
+                    height: 345px;
+                    width: 345px;
+                    margin: 0px 10px;
+                }
+            }
+        }  
+    }
+}
+
 .container{
     .row{
         .Popular_Exhibition{
@@ -124,6 +191,15 @@
         padding-bottom: 24px; 
     }
 }
+@media(max-width: 376px){
+    .container{
+        h2{
+            padding: 20px 0px 8px 15px;
+        }
+    }
+}
+
+
 .live_streaming_background{
     height: 482px;
     background-image: url(../images/people2.png);
@@ -164,6 +240,20 @@
         color: $white;
     }
 }
+@media(max-width: 376px){
+    .live_streaming_left{
+        h3{
+            font-size: 26px;
+        }
+        .pb2{
+            font-size: 16px;
+            br{
+                display: none;
+            }
+        }
+    }
+}
+
 .guess{
     padding: 0px;
     margin-bottom: 60px;
@@ -173,5 +263,16 @@
         object-fit: cover;
     }
 }
-
+@media(max-width: 376px){
+    .guess{
+        margin: 0px 15px 16px 15px;
+        padding: 0px !important;
+        width: 345px;
+        img{
+            width: 345px;
+            height: 345px;      
+        }
+       
+    }
+}
 

@@ -19,11 +19,16 @@
     }
 }
 
+@media(max-width: 376px){
+    .menu_design{
+        display: none;
+    }
+}
+
 .background_design{
     padding: 80px 0px 52px 0px;
     margin-bottom: 80px;
     background-color: $indigo;
-    height: 417px;
     display: flex;
     color: $white;
 }
@@ -54,4 +59,44 @@
 }
 .pd0300{
     padding: 0px 30px 0px 0px;
+}
+@media(min-width: 376px){
+    .background_design{
+        .background_design_title{
+            .rwd_show{
+                display: none;
+            }  
+        } 
+    }
+}
+@media(max-width: 376px){
+    .background_design{
+        padding: 0px;
+        margin: 0px;
+        .row{
+            flex-direction: column-reverse; 
+        }
+    }
+    .col_indigo{
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .background_design_title{
+        h1{
+            font-size: 28px;
+            padding-bottom: 8px;
+        }
+        p{
+            padding-bottom: 44px;
+        }
+    }
+    .background_design_photo{
+        padding: 44px 15px 16px 15px;
+    }
+
+    .background_design_date{
+        display: none;
+    }
+    
 }

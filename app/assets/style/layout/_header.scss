@@ -1,6 +1,5 @@
 
 .header{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +19,10 @@
     }
     a{
         color: #707070;
+        &:hover{
+            color:$indigo;
+            font-size: 25px;
+        }
     }
     img{
         width: 24px;
@@ -27,4 +30,28 @@
     }
     
 }
+
+.badge {
+    padding: 0.2em 0.4em;
+    font-size: 0.6em;
+    position: absolute;
+    top: 0px;
+    right: -8px;
+}
+
+@media(max-width: 376px){
+    .header{
+        padding: 0px;
+        justify-content: center;
+        h1{
+            font-size: 22px;
+            padding: 21px 10px 17px 60px;
+        }
+        .not-show, .meaningless{
+            display: none;
+        }
+       
+    }
+}
+
 

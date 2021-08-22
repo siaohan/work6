@@ -17,13 +17,18 @@
         <h1>EXHIBINECTION</h1>
       </div>
       <ul>
-        <li><a href="#">Sign in</a></li>
-        <li class="ml4"><a href="#">Sign up</a></li>
-        <li class="ml4"><img src="assets/images/baseline_confirmation_number_black_24dp.png" alt=""></li>
+        <li class="not-show"><a href="#">Sign in</a></li>
+        <li class="ml4 not-show"><a href="#">Sign up</a></li>
+        <li class="ml4 position-relative">
+          <a href="#">
+            <img src="assets/images/baseline_confirmation_number_black_24dp.png" alt="">
+            <div class=".position-absolute">
+              <span class="badge rounded-pill bg-danger">3</span>
+            </div>
+          </a>
+        </li>
       </ul>
     </div>
-    
-   
     
 
     <%- contents %>
@@ -31,7 +36,7 @@
     
     <div class="footer_background">
       <div class=footer>
-        <h2>想收到展覽的最新消息嗎？<br> 快訂閱我們！</h2>
+        <h2>想收到最新消息嗎？<br> 快訂閱我們！</h2>
         <div class="input-group mb-3">
           <input type="mail" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username" aria-describedby="basic-addon2">
           <span class="input-group-text" id="basic-addon2">訂閱</span>
